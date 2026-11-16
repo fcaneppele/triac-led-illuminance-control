@@ -1,5 +1,7 @@
 # Triac-dimmed LED illuminance control with external-light compensation: bench data, firmware and calibrated simulation
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24294283.svg)](https://doi.org/10.5281/zenodo.24294283)
+
 Data, original source code and simulation supporting the article *"Closed-loop illuminance
 control of triac-dimmed retrofit LED lamps with external-light compensation: a low-cost bench
 study at low illuminance"* (submitted). The bench prototype was developed in the M.Sc.
@@ -50,8 +52,9 @@ Seeds are deterministic, so the outputs in `simulation/out/` are reproduced exac
 
 ## How to cite
 
-Cite the archived release through its Zenodo DOI (see the badge or `CITATION.cff`) and the
-dissertation:
+Cite the archived release used in the article, version 1.0.0:
+[10.5281/zenodo.24294284](https://doi.org/10.5281/zenodo.24294284). All versions:
+[10.5281/zenodo.24294283](https://doi.org/10.5281/zenodo.24294283). Please also cite the dissertation:
 
 > J. A. Carvalho Neto, *Sistema de iluminação de granjas controladas por lógica fuzzy* (Lighting
 > system for poultry houses controlled by fuzzy logic), M.Sc. dissertation, School of
