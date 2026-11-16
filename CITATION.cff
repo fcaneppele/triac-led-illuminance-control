@@ -22,7 +22,7 @@ authors:
 version: 1.0.0
 date-released: "2026-11-16"
 license: MIT
-repository-code: "https://github.com/GITHUB_USER/triac-led-illuminance-control"
+repository-code: "https://github.com/fcaneppele/triac-led-illuminance-control"
 keywords:
   - "illuminance control"
   - "LED lighting"
