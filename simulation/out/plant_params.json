@@ -1,0 +1,265 @@
+{
+  "knots_pot": [
+    3.9961598463938515,
+    10.0,
+    15.0,
+    20.0,
+    25.0,
+    30.0,
+    40.0,
+    50.0,
+    60.0,
+    70.0,
+    90.15960638425537
+  ],
+  "knots_E": [
+    0.0,
+    3.969129691444206,
+    10.036224000743386,
+    10.34438700405025,
+    14.26134310327052,
+    14.261343116632833,
+    24.09178153562942,
+    36.4023246466734,
+    47.07034778727285,
+    55.321254608376776,
+    55.34458904720349
+  ],
+  "lag": 0.8,
+  "lag_scores_rmse_counts": {
+    "1.0": 1.6082718866965442,
+    "0.9": 1.6261090889699772,
+    "0.8": 1.5887222732556063,
+    "0.7": 1.9052054199764634,
+    "0.6": 2.1326220769458715,
+    "0.5": 2.439656344021239
+  },
+  "run_scales": {
+    "A1-1": 0.8784079725446544,
+    "A1-2": 1.0374644615303785,
+    "A1-3": 1.095334683421066,
+    "A1-4": 1.0367637010821371,
+    "A2-1": 0.9800047082881934,
+    "A2-2": 0.9955941852736756,
+    "A2-3": 0.9781262730541684,
+    "A2-4": 0.9942878436103414,
+    "A2-5": 1.0083678646686711,
+    "A2-6": 1.0098742872603446
+  },
+  "sigma_log_scale": 0.056638387371001145,
+  "static_fit_rmse_counts": 0.8068049170973708,
+  "n_static_points": 53,
+  "noise": {
+    "changes": 2,
+    "transitions": 120,
+    "rate": 0.016666666666666666,
+    "rate_upper95": 0.05153371368637799,
+    "sigma_raw_nominal": 0.014588971337116253,
+    "sigma_raw_upper95": 0.04633921300976919
+  },
+  "validation": [
+    {
+      "run": "A1-1",
+      "scale_mode": "fitted",
+      "n": 7,
+      "rmse_counts": 0.6546536707079771,
+      "max_abs_counts": 1.0,
+      "final_meas": 10.0,
+      "final_sim": 10,
+      "ext_step_counts": 0.0
+    },
+    {
+      "run": "A1-1",
+      "scale_mode": "nominal",
+      "n": 7,
+      "rmse_counts": 1.0,
+      "max_abs_counts": 2.0,
+      "final_meas": 10.0,
+      "final_sim": 10,
+      "ext_step_counts": 0.0
+    },
+    {
+      "run": "A1-2",
+      "scale_mode": "fitted",
+      "n": 11,
+      "rmse_counts": 1.4459976109624424,
+      "max_abs_counts": 3.0,
+      "final_meas": 32.0,
+      "final_sim": 33,
+      "ext_step_counts": 0.0
+    },
+    {
+      "run": "A1-2",
+      "scale_mode": "nominal",
+      "n": 11,
+      "rmse_counts": 1.5374122295716148,
+      "max_abs_counts": 4.0,
+      "final_meas": 32.0,
+      "final_sim": 32,
+      "ext_step_counts": 0.0
+    },
+    {
+      "run": "A1-3",
+      "scale_mode": "fitted",
+      "n": 13,
+      "rmse_counts": 1.6641005886756874,
+      "max_abs_counts": 4.0,
+      "final_meas": 10.0,
+      "final_sim": 10,
+      "ext_step_counts": 0.0
+    },
+    {
+      "run": "A1-3",
+      "scale_mode": "nominal",
+      "n": 13,
+      "rmse_counts": 3.186510027262766,
+      "max_abs_counts": 5.0,
+      "final_meas": 10.0,
+      "final_sim": 10,
+      "ext_step_counts": 0.0
+    },
+    {
+      "run": "A1-4",
+      "scale_mode": "fitted",
+      "n": 10,
+      "rmse_counts": 1.51657508881031,
+      "max_abs_counts": 4.0,
+      "final_meas": 33.0,
+      "final_sim": 32,
+      "ext_step_counts": 0.0
+    },
+    {
+      "run": "A1-4",
+      "scale_mode": "nominal",
+      "n": 10,
+      "rmse_counts": 1.8439088914585775,
+      "max_abs_counts": 4.0,
+      "final_meas": 33.0,
+      "final_sim": 32,
+      "ext_step_counts": 0.0
+    },
+    {
+      "run": "A2-1",
+      "scale_mode": "fitted",
+      "n": 27,
+      "rmse_counts": 0.3333333333333333,
+      "max_abs_counts": 1.0,
+      "final_meas": 10.0,
+      "final_sim": 10,
+      "ext_step_counts": 2.0
+    },
+    {
+      "run": "A2-1",
+      "scale_mode": "nominal",
+      "n": 27,
+      "rmse_counts": 0.5091750772173156,
+      "max_abs_counts": 1.0,
+      "final_meas": 10.0,
+      "final_sim": 10,
+      "ext_step_counts": 2.0
+    },
+    {
+      "run": "A2-2",
+      "scale_mode": "fitted",
+      "n": 35,
+      "rmse_counts": 1.7320508075688772,
+      "max_abs_counts": 6.0,
+      "final_meas": 10.0,
+      "final_sim": 10,
+      "ext_step_counts": 6.0
+    },
+    {
+      "run": "A2-2",
+      "scale_mode": "nominal",
+      "n": 35,
+      "rmse_counts": 1.7237832147426693,
+      "max_abs_counts": 6.0,
+      "final_meas": 10.0,
+      "final_sim": 10,
+      "ext_step_counts": 6.0
+    },
+    {
+      "run": "A2-3",
+      "scale_mode": "fitted",
+      "n": 24,
+      "rmse_counts": 1.3228756555322954,
+      "max_abs_counts": 6.0,
+      "final_meas": 10.0,
+      "final_sim": 10,
+      "ext_step_counts": 12.0
+    },
+    {
+      "run": "A2-3",
+      "scale_mode": "nominal",
+      "n": 24,
+      "rmse_counts": 1.4433756729740645,
+      "max_abs_counts": 6.0,
+      "final_meas": 10.0,
+      "final_sim": 10,
+      "ext_step_counts": 12.0
+    },
+    {
+      "run": "A2-4",
+      "scale_mode": "fitted",
+      "n": 16,
+      "rmse_counts": 0.0,
+      "max_abs_counts": 0.0,
+      "final_meas": 33.0,
+      "final_sim": 33,
+      "ext_step_counts": 1.0
+    },
+    {
+      "run": "A2-4",
+      "scale_mode": "nominal",
+      "n": 16,
+      "rmse_counts": 0.75,
+      "max_abs_counts": 1.0,
+      "final_meas": 33.0,
+      "final_sim": 32,
+      "ext_step_counts": 1.0
+    },
+    {
+      "run": "A2-5",
+      "scale_mode": "fitted",
+      "n": 35,
+      "rmse_counts": 2.5185029566901727,
+      "max_abs_counts": 5.0,
+      "final_meas": 32.0,
+      "final_sim": 33,
+      "ext_step_counts": 7.0
+    },
+    {
+      "run": "A2-5",
+      "scale_mode": "nominal",
+      "n": 35,
+      "rmse_counts": 1.4442002235542986,
+      "max_abs_counts": 3.0,
+      "final_meas": 32.0,
+      "final_sim": 32,
+      "ext_step_counts": 7.0
+    },
+    {
+      "run": "A2-6",
+      "scale_mode": "fitted",
+      "n": 30,
+      "rmse_counts": 1.7511900715418263,
+      "max_abs_counts": 3.0,
+      "final_meas": 30.0,
+      "final_sim": 33,
+      "ext_step_counts": 12.0
+    },
+    {
+      "run": "A2-6",
+      "scale_mode": "nominal",
+      "n": 30,
+      "rmse_counts": 1.66332999331662,
+      "max_abs_counts": 3.0,
+      "final_meas": 30.0,
+      "final_sim": 33,
+      "ext_step_counts": 12.0
+    }
+  ],
+  "knotset": "fine",
+  "lambda_smooth": 0.0,
+  "pooled_rmse_nominal": 1.5887222732556063
+}

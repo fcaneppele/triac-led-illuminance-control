@@ -1,0 +1,5 @@
+# versions used to produce simulation/out (Python 3.15)
+numpy==2.5.5
+scipy==1.18.1
+matplotlib==3.11.2
+pillow==13.0.0

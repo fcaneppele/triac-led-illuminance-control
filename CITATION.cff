@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Triac-dimmed LED illuminance control with external-light compensation: bench data, firmware and calibrated simulation"
+type: software
+authors:
+  - family-names: "Carvalho Neto"
+    given-names: "Joubert Alves de"
+    affiliation: "School of Agricultural Sciences (FCA), São Paulo State University (Unesp), Botucatu, SP, Brazil"
+  - family-names: "Fontana"
+    given-names: "Rodolfo Yuri de Almeida"
+    affiliation: "Polytechnic School, University of São Paulo (USP), São Paulo, SP, Brazil"
+  - family-names: "Gimenes"
+    given-names: "André Luiz Veiga"
+    affiliation: "Polytechnic School, University of São Paulo (USP), São Paulo, SP, Brazil"
+  - family-names: "Frigo"
+    given-names: "Murilo Miceno"
+    affiliation: "Federal Institute of Education, Science and Technology of Mato Grosso do Sul (IFMS), Brazil"
+  - family-names: "Caneppele"
+    given-names: "Fernando de Lima"
+    affiliation: "Department of Biosystems Engineering, School of Animal Science and Food Engineering (FZEA), University of São Paulo (USP), Pirassununga, SP, Brazil"
+    orcid: "https://orcid.org/0000-0003-4498-8682"
+version: 1.0.0
+date-released: "2026-11-16"
+license: MIT
+repository-code: "https://github.com/GITHUB_USER/triac-led-illuminance-control"
+keywords:
+  - "illuminance control"
+  - "LED lighting"
+  - "triac"
+  - "phase-angle dimming"
+  - "daylight compensation"
+  - "fuzzy control"
+  - "low-cost instrumentation"
+  - "BH1750"
+  - "Arduino"
+  - "poultry housing"
+references:
+  - type: thesis
+    title: "Sistema de iluminação de granjas controladas por lógica fuzzy"
+    authors:
+      - family-names: "Carvalho Neto"
+        given-names: "Joubert Alves de"
+    institution:
+      name: "São Paulo State University (Unesp), School of Agricultural Sciences, Botucatu, Brazil"
+    year: 2021
+    thesis-type: "M.Sc. dissertation"

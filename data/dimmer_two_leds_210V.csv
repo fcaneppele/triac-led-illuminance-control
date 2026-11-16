@@ -1,0 +1,7 @@
+firing_angle_deg,firing_delay_ms,v_rms_resistive_formula_V,v_rms_measured_V,error_pct_as_reported
+0,0,210,210,0.00
+30,1.39,206.95,203,1.95
+60,2.78,188.36,182,3.49
+90,4.17,148.48,139,6.82
+120,5.55,92.85,86,7.97
+150,6.94,35.55,41,-13.29

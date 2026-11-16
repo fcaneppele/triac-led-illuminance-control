@@ -1,0 +1,7 @@
+run,sensor_setpoint_lx,external_light_luxmeter_lx,v_led_start_V,luxmeter_start_lx,insertion_cycle,reading_after_insertion_lx,settled_cycle_after_insertion,v_led_after_insertion_V,luxmeter_after_insertion_lx,removal_cycle,reading_after_removal_lx,settled_cycle_after_removal,v_led_after_removal_V,luxmeter_after_removal_lx,dissertation_plot
+A2-1,10,1.67,53,10.35,5,12,10,37,9.95,15,8,17,42,9.42,26
+A2-2,10,5.31,52,10.26,8,15,13,25,10.13,20,5,22,41,9.38,27
+A2-3,10,10.43,53,10.25,5,21,8,16,10.48,15,0,18,44,9.68,28
+A2-4,33,1.22,132,24.6,5,34,6,132,24.6,12,33,13,132,24.6,29
+A2-5,33,5.53,131,25.3,5,40,8,120,28,20,30,23,128,24.3,30
+A2-6,33,10.33,129,25.2,5,45,8,98,27,20,21,23,122,23,31

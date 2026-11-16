@@ -1,0 +1,113 @@
+{
+  "_source": "Values transcribed from the M.Sc. dissertation (Carvalho Neto, 2021): measured voltages and event samples of the bench runs. Digitised traces are in digitized_traces_raw.json, keyed by dissertation plot number (19=A1-1, 20=A1-2, 22=A1-3, 24=A1-4, 26..31=A2-1..A2-6).",
+  "triac_210V": {
+    "_source": "Measured RMS voltage across the two LED lamps vs firing angle, 210 V mains",
+    "angle_deg": [
+      0,
+      30,
+      60,
+      90,
+      120,
+      150
+    ],
+    "V_meas": [
+      210,
+      203,
+      182,
+      139,
+      86,
+      41
+    ]
+  },
+  "runs": {
+    "A1-1": {
+      "plot": "19",
+      "sp": 10,
+      "pot0": 0,
+      "type": "A1"
+    },
+    "A1-2": {
+      "plot": "20",
+      "sp": 33,
+      "pot0": 0,
+      "type": "A1"
+    },
+    "A1-3": {
+      "plot": "22",
+      "sp": 10,
+      "pot0": 100,
+      "type": "A1"
+    },
+    "A1-4": {
+      "plot": "24",
+      "sp": 33,
+      "pot0": 100,
+      "type": "A1"
+    },
+    "A2-1": {
+      "plot": "26",
+      "sp": 10,
+      "type": "A2",
+      "V_start": 53,
+      "V_on": 37,
+      "V_off": 42,
+      "ins_sample": 6,
+      "rem_sample": 16
+    },
+    "A2-2": {
+      "plot": "27",
+      "sp": 10,
+      "type": "A2",
+      "V_start": 52,
+      "V_on": 25,
+      "V_off": 41,
+      "ins_sample": 10,
+      "rem_sample": 20
+    },
+    "A2-3": {
+      "plot": "28",
+      "sp": 10,
+      "type": "A2",
+      "V_start": 53,
+      "V_on": 16,
+      "V_off": 44,
+      "ins_sample": 6,
+      "rem_sample": 16
+    },
+    "A2-4": {
+      "plot": "29",
+      "sp": 33,
+      "type": "A2",
+      "V_start": 132,
+      "V_on": 132,
+      "V_off": 132,
+      "ins_sample": 6,
+      "rem_sample": 13
+    },
+    "A2-5": {
+      "plot": "30",
+      "sp": 33,
+      "type": "A2",
+      "V_start": 131,
+      "V_on": 120,
+      "V_off": 128,
+      "ins_sample": 6,
+      "rem_sample": 21
+    },
+    "A2-6": {
+      "plot": "31",
+      "sp": 33,
+      "type": "A2",
+      "V_start": 129,
+      "V_on": 98,
+      "V_off": 122,
+      "ins_sample": 6,
+      "rem_sample": 21
+    }
+  },
+  "_notes": [
+    "ins_sample / rem_sample: first plotted sample in which the external-light step is visible in the digitised reading (the text's cycle numbers are 1-2 lower).",
+    "pot0 for A1 runs: lamps forced off (0 %) or full (100 %) at start, as stated in the text.",
+    "A2 runs start at the setpoint; their initial command is obtained by settling the model in darkness."
+  ]
+}
