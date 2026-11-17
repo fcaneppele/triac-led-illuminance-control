@@ -19,9 +19,8 @@ authors:
     given-names: "Fernando de Lima"
     affiliation: "Department of Biosystems Engineering, School of Animal Science and Food Engineering (FZEA), University of São Paulo (USP), Pirassununga, SP, Brazil"
     orcid: "https://orcid.org/0000-0003-4498-8682"
-version: 1.0.0
-doi: "10.5281/zenodo.24294284"
-date-released: "2026-11-16"
+version: 1.1.0
+date-released: "2026-11-17"
 license: MIT
 repository-code: "https://github.com/fcaneppele/triac-led-illuminance-control"
 keywords:

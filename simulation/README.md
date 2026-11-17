@@ -10,6 +10,8 @@ single-run bench records; Monte Carlo statistics are not physical repetitions.
 | `model.py` | Sensor → Mega firmware → MATLAB FIS → Uno accumulator → plant chain; fuzzy (as implemented), integral-equivalent, on/off and on/off with minimum dwell controllers |
 | `identify.py` | Static map g(POT), first-order lag, run-to-run gain spread and sensor temporal noise; closed-loop validation against the ten bench runs |
 | `compare.py` | Scenarios, metrics and paired differences with bootstrap 95 % confidence intervals |
+| `onoff_sensitivity.py` | On/off baseline with ±10 % vs ±20 % hysteresis (same paired draws) → `out/onoff_hysteresis_sensitivity.csv` |
+| `loro.py` | Leave-one-run-out check: refit the static map without each run and replay it → `out/loro.json` |
 | `data/` | Digitised traces (keys = dissertation plot numbers) and bench records |
 | `out/` | `plant_params.json`, `identification_report.md`, `summary.csv`, `paired_differences.csv`, `mc_runs.csv`, `examples.json`, diagnostic figure |
 
@@ -25,6 +27,11 @@ single-run bench records; Monte Carlo statistics are not physical repetitions.
   voltage via the measured voltage–angle curve.
 * The knot set, smoothing and lag were selected by pooled closed-loop validation RMSE with
   nominal gain. The result is 1.59 sensor counts (see `out/identification_report.md`).
+
+## Additional checks (v1.1.0)
+
+* **Leave-one-run-out:** pooled RMSE of held-out runs 1.66 counts vs 1.59 in-sample (largest change A1-2, 1.54 → 2.41). Lag and knots were not reselected per fold, and held-out A2 runs keep their own observed step size.
+* **On/off hysteresis width:** with ±10 % hysteresis the on/off baseline stayed in band 34–78 % of the controllable time in the eight scenarios other than the 1 lx step and the 12 lx step at 10 lx (±20 %: 35–91 %), with more switching.
 
 ## Comparison protocol
 

@@ -31,6 +31,8 @@ python tools/digitize_response_plots.py     # re-digitises data/source_plots -> 
 cd simulation
 python identify.py                          # plant identification + validation -> out/plant_params.json
 python compare.py                           # Monte Carlo (N = 200 per condition, ~2 min) -> out/summary.csv
+python onoff_sensitivity.py                 # on/off hysteresis sensitivity -> out/onoff_hysteresis_sensitivity.csv
+python loro.py                              # leave-one-run-out check -> out/loro.json
 ```
 
 Seeds are deterministic, so the outputs in `simulation/out/` are reproduced exactly.
@@ -52,7 +54,7 @@ Seeds are deterministic, so the outputs in `simulation/out/` are reproduced exac
 
 ## How to cite
 
-Cite the archived release used in the article, version 1.0.0:
+Cite the archived release used in the article (see the version DOI on the Zenodo record of the latest release). Version 1.0.0:
 [10.5281/zenodo.24294284](https://doi.org/10.5281/zenodo.24294284). All versions:
 [10.5281/zenodo.24294283](https://doi.org/10.5281/zenodo.24294283). Please also cite the dissertation:
 

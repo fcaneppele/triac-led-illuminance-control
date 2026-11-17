@@ -1,0 +1,46 @@
+{
+  "A1-1": {
+    "rmse_in_sample": 1.0,
+    "rmse_held_out": 1.0
+  },
+  "A1-2": {
+    "rmse_in_sample": 1.5374122295716148,
+    "rmse_held_out": 2.412090756622109
+  },
+  "A1-3": {
+    "rmse_in_sample": 3.186510027262766,
+    "rmse_held_out": 2.9871519752227074
+  },
+  "A1-4": {
+    "rmse_in_sample": 1.8439088914585775,
+    "rmse_held_out": 2.3021728866442674
+  },
+  "A2-1": {
+    "rmse_in_sample": 0.5091750772173156,
+    "rmse_held_out": 0.5773502691896257
+  },
+  "A2-2": {
+    "rmse_in_sample": 1.7237832147426693,
+    "rmse_held_out": 1.7237832147426693
+  },
+  "A2-3": {
+    "rmse_in_sample": 1.4433756729740645,
+    "rmse_held_out": 1.4433756729740645
+  },
+  "A2-4": {
+    "rmse_in_sample": 0.75,
+    "rmse_held_out": 0.75
+  },
+  "A2-5": {
+    "rmse_in_sample": 1.4442002235542986,
+    "rmse_held_out": 1.4442002235542986
+  },
+  "A2-6": {
+    "rmse_in_sample": 1.66332999331662,
+    "rmse_held_out": 1.7126976771553504
+  },
+  "pooled": {
+    "rmse_in_sample": 1.5887222732556063,
+    "rmse_held_out": 1.6597613359479406
+  }
+}

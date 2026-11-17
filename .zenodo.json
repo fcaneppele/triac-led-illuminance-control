@@ -1,7 +1,7 @@
 {
   "title": "Triac-dimmed LED illuminance control with external-light compensation: bench data, firmware and calibrated simulation",
   "upload_type": "software",
-  "description": "<p>Data, original source code and calibrated simulation supporting a study of closed-loop illuminance control of triac-dimmed retrofit LED lamps with external-light compensation at low illuminance (10–33 lx at the sensor). The bench prototype (BH1750 sensor, Arduino Mega acquisition, MATLAB-hosted 3-rule Mamdani inference, Arduino Uno with a triac dimmer shield) was developed in the M.Sc. dissertation of J. A. Carvalho Neto (Unesp, 2021).</p><p>Contents: sensor calibration pairs (n = 26 and n = 22); triac/dimmer voltage tables; single-run bench records (setpoint tracking and external-light steps); per-cycle traces digitised from the original plots, with the source images and digitisation script; the original Arduino and MATLAB code; and a simulation that identifies the plant from the bench records, validates it in closed loop and compares the fuzzy controller with on/off (hysteresis) and integral baselines by Monte Carlo.</p><p>All dynamic bench tests are single runs (n = 1). Baseline comparisons are simulated, not measured. No power or energy data are included. Code is MIT-licensed; data are CC BY 4.0.</p>",
+  "description": "<p>Data, original source code and calibrated simulation supporting a study of closed-loop illuminance control of triac-dimmed retrofit LED lamps with external-light compensation at low illuminance (10–33 lx at the sensor). The bench prototype (BH1750 sensor, Arduino Mega acquisition, MATLAB-hosted 3-rule Mamdani inference, Arduino Uno with a triac dimmer shield) was developed in the M.Sc. dissertation of J. A. Carvalho Neto (Unesp, 2021).</p><p>Contents: sensor calibration pairs (n = 26 and n = 22); triac/dimmer voltage tables; single-run bench records (setpoint tracking and external-light steps); per-cycle traces digitised from the original plots, with the source images and digitisation script; the original Arduino and MATLAB code; and a simulation that identifies the plant from the bench records, validates it in closed loop and compares the fuzzy controller with on/off (hysteresis) and integral baselines by Monte Carlo, with a leave-one-run-out check of the plant model and a sensitivity analysis of the on/off hysteresis width (added in v1.1.0).</p><p>All dynamic bench tests are single runs (n = 1). Baseline comparisons are simulated, not measured. No power or energy data are included. Code is MIT-licensed; data are CC BY 4.0.</p>",
   "creators": [
     {
       "name": "Carvalho Neto, Joubert Alves de",
@@ -40,7 +40,7 @@
   "license": "MIT",
   "access_right": "open",
   "language": "eng",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "references": [
     "Carvalho Neto, J. A. (2021). Sistema de iluminação de granjas controladas por lógica fuzzy [M.Sc. dissertation]. São Paulo State University (Unesp), School of Agricultural Sciences, Botucatu, Brazil."
   ]
